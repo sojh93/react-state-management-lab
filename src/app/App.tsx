@@ -68,6 +68,13 @@ function App() {
                     />
 
                     <Route
+                        path="/jotai"
+                        element={
+                            <PlaceHolderPage title="Jotai Todo" />
+                        }
+                    />
+
+                    <Route
                         path="/tanstack-query"
                         element={
                             <PlaceHolderPage title="TanStack Query Todo" />
