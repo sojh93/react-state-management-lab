@@ -6,6 +6,7 @@ import {
 } from "react-router";
 
 import UseStateTodoPage from "../features/use-state/UseStateTodoPage";
+import ZustandTodoPage from "../features/zustand/ZustandTodoPage";
 import PlaceHolderPage from "../pages/PlaceHolderPage";
 
 function App() {
@@ -56,9 +57,7 @@ function App() {
                     />
                     <Route 
                         path="/zustand"
-                        element={
-                            <PlaceHolderPage title="Zustand Todo" />
-                        }
+                        element={<ZustandTodoPage />}
                     />
                     <Route 
                         path="/redux"
