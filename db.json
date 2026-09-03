@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "TanStack Query 공부하기",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "title": "Server State 이해하기",
+      "completed": true
+    }
+  ]
+}
