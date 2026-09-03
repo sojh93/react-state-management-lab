@@ -8,6 +8,7 @@ import {
 import UseStateTodoPage from "../features/use-state/UseStateTodoPage";
 import ZustandTodoPage from "../features/zustand/ZustandTodoPage";
 import ReduxTodoPage from "../features/redux/ReduxTodoPage";
+import JotaiTodoPage from "../features/jotai/JotaiTodoPage";
 import PlaceHolderPage from "../pages/PlaceHolderPage";
 
 function App() {
@@ -67,9 +68,7 @@ function App() {
 
                     <Route
                         path="/jotai"
-                        element={
-                            <PlaceHolderPage title="Jotai Todo" />
-                        }
+                        element={<JotaiTodoPage/>}
                     />
 
                     <Route
