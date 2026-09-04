@@ -8,7 +8,18 @@
     {
       "id": "2",
       "title": "Server State 이해하기",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "title": "내가 추가한 Todo",
       "completed": true
+    },
+    {
+      "title": "테스트입니다",
+      "completed": false,
+      "id": "wr-uq1gVhOM"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

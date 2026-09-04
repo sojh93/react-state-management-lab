@@ -9,6 +9,10 @@ import UseStateTodoPage from "../features/use-state/UseStateTodoPage";
 import ZustandTodoPage from "../features/zustand/ZustandTodoPage";
 import ReduxTodoPage from "../features/redux/ReduxTodoPage";
 import JotaiTodoPage from "../features/jotai/JotaiTodoPage";
+
+import TanstackQueryProvider from "../features/tanstack-query/TanstackQueryProvider";
+import TanstackQueryTodoPage from "../features/tanstack-query/TanstackQueryTodoPage";
+
 import PlaceHolderPage from "../pages/PlaceHolderPage";
 
 function App() {
@@ -74,7 +78,9 @@ function App() {
                     <Route
                         path="/tanstack-query"
                         element={
-                            <PlaceHolderPage title="TanStack Query Todo" />
+                            <TanstackQueryProvider>
+                                <TanstackQueryTodoPage />
+                            </TanstackQueryProvider>
                         }
                     />
                 </Routes>
